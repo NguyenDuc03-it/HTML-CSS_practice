@@ -1,0 +1,466 @@
+@media screen and (min-width: 30.0625em) and (max-width: 48em) {
+  body{
+    width: 100%;
+  }
+
+  /* header */
+  header{
+    height: 3.385vw;
+    padding: 4.427vw 2.605vw;
+  }
+
+  .container-head{
+    height: 3.776vw;
+  }
+
+  .title-head img{
+    display: none;
+  }
+  
+  .title-head h1 {
+    font-family: "League Spartan";
+    font-size: 4.167vw;
+    width: 11.458vw;
+  }
+
+  .title-head a {
+    font-size: 1.953vw;
+    flex-shrink: 0;
+  }
+
+  .title-head * {
+    margin-right: 1.693vw;
+  }
+
+  .title-head .menu-4{
+    width: 6.12vw;
+  }
+
+  .title-head .menu-5{
+    width: 5.859vw;
+  }
+
+  .user-info{
+    width: 19.531vw;
+    height: 3.776vw;
+  }
+
+  .user-info * {
+    margin-left: 1.172vw;
+  }
+
+  .user-info img {
+    width: 3.906vw;
+    height: 3.776vw;
+  }
+
+  .user-info span {
+    margin-top: 0.716vw;
+    margin-bottom: 00.716vw;
+    font-size: 1.953vw;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  
+  /* end header */
+
+  /* body */
+  .container-body{
+    padding: 0px 0px;
+  }
+  .title-body{
+    width: 100%;
+    height: 11.589vw;
+  }
+
+  .title-body .title {
+    height: 3.125vw;
+    font-size: 2.604vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2.539vw 0px 1.432vw 2.604vw;
+    padding: 0;
+  }
+
+  .title-body .content-title-body {
+    height: 11.589vw;
+}
+
+  .title-body .content {
+    font-size: 1.953vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 2.539vw 2.604vw;
+    height: 1.953vw;
+    padding: 0;
+  }
+
+  .content-body {
+    padding-bottom: 3.516vw;
+    width: 100%;
+  }
+
+  .content-body .title .content-1 {
+    font-size: 2.604vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.953vw;
+  }
+
+  .content-body .title .content-2 {
+    font-size: 1.953vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .content-body > div {
+    margin-top: 5.208vw;
+  }
+
+  .content-body .title {
+    width: 94.792vw;
+    height: 7.422vw;
+    padding: 0px 2.604vw;
+  }
+
+  .steps {
+    width: 37.109vw;
+    height: fit-content;
+  }
+
+  .steps-and-info{
+    padding: 0px 2.604vw;
+  }
+
+  .steps .step-1, .step-2, .step-3, .step-4, .step-5 {
+    margin-bottom: 3.255vw;
+    width: 37.109vw;
+  }
+
+  .step-4{
+    height: 12.24vw;
+  }
+
+  .step-5{
+    height: 10.417vw;
+  }
+
+  .step-header {
+    width: 37.109vw;
+    gap: 3.776vw;
+    margin-bottom: 1.302vw;
+  }
+
+  .step-number {
+    width: 3.906vw;
+    height: 3.906vw;
+    font-size: 2.083vw;
+  }
+
+  .step-title {
+    font-size: 2.083vw;
+  }
+
+  .step-3 .step-title{
+    width: 27.474vw;
+  }
+
+  .step-4 .step-title{
+    width: 23.958vw;
+  }
+
+  .step-5 .step-title{
+    width: 28.776vw;
+  }
+
+  .step-content button {
+    width: 18.099vw;
+    height: 5.208vw;
+    gap: 1.693vw;
+    padding: 0 0.651vw;
+  }
+
+  .step-content img {
+    width: 1.823vw;
+    height: 1.823vw;
+  }
+
+  .step-content .select-order span, .step-content .select-reason .icon-and-content span {
+    font-size: 1.823vw;
+  }
+
+  .icon-and-content{
+    gap: 1.302vw;
+  }
+
+  .step-content .select-order span {
+    width: 13.281vw;
+    flex-shrink: 0;
+  }
+
+  .radio-group {
+    width: 37.109vw;
+    height: 7.031vw;
+    gap: 0.781vw;
+  }
+
+  .radio-group label {
+    padding: 0px 7.161vw;
+    gap: 1.823vw;
+    width: 22.786vw;
+    height: 3.646vw;
+  }
+
+  .step-content .radio-unchecked {
+    width: 3.255vw;
+    height: 2.604vw;
+  }
+
+  .step-content .radio-checked {
+    width: 3.125vw;
+    height: 3.125vw;
+  }
+
+  .step-5 .step-content {
+    width: 37.109vw;
+    height: 5.208vw;
+  }
+
+  .radio-option span {
+    font-size: 1.823vw;
+  }
+
+  .step-content .submit-btn {
+    width: 16.667vw;
+    height: 5.208vw;
+    gap: 1.042vw;
+    margin: 0px 10.156vw 0px 7.813vw;
+    font-size: 1.823vw;
+  }
+
+  .steps-and-info .info {
+    max-width: 43.49vw;
+    gap: 5.208vw;
+  }
+
+  .card {
+    border-radius: 10px;
+    padding: 2.474vw 1.302vw;
+    width: 40.800vw;
+    height: 22.830vw;
+  }
+
+  #conditions{
+    width: 40.400vw;
+    height: 27.200vw;
+  }
+
+  .card h3 {
+    font-size: 1.953vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.344vw;
+  }
+
+  .benefit-item, .condition-item {
+    gap: 1.172vw;
+    margin-bottom: 2.344vw;
+  }
+
+  .benefit-item p, .condition-item p {
+    font-size: 1.302vw;
+  }
+
+  .benefit-item img, .condition-item img {
+    width: 2.474vw;
+    height: 2.474vw;
+  }
+
+  .order-status-2{
+    display: none;
+  }
+
+  .order-status h2 {
+    font-size: 2.604vw;
+    margin-bottom: 3.646vw;
+    text-align: start;
+  }
+
+  .status-steps {
+    width: 94.792vw;
+  }
+
+  .order-status {
+    margin-bottom: 5.208vw;
+    padding: 0px 2.604vw;
+    height: 21.745vw;
+  }
+
+  .status-step p {
+    font-size: 1.953vw;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Roboto";
+  }
+
+  .status-icon {
+    width: 7.813vw;
+    height: 7.813vw;
+  }
+
+  .status-icon img {
+    width: 3.418vw;
+    height: 3.418vw;
+  }
+
+  .status-step {
+    gap: 0.781vw;
+    width: 13.411vw;
+    height: 14.583vw;
+  }
+
+  .recent-products {
+    max-width: 94.792vw;
+    margin: 0;
+    padding: 0px 2.604vw;
+  }
+
+  .recent-products h2 {
+    font-size: 2.604vw;
+    margin-bottom: 4.688vw;
+    height: 3.125vw;
+  }
+
+  .product-card {
+    padding: 0;
+    border-radius: 0.625em;
+    margin-bottom: 4.688vw;
+    gap: 1.302vw;
+    width: 94.792vw;
+    height: 16.927vw;
+  }
+
+  .product-image {
+    width: 25.391vw;
+    height: 16.797vw;
+    object-fit: contain;
+    margin-right: 0.521vw;
+    margin-left: 0.260vw;
+  }
+
+  .img-and-content{
+    gap: 1.302vw;
+    width: 68.359vw;
+    height: 16.797vw;
+  }
+
+  .product-info {
+    width: 41.667vw;
+  }
+
+  .product-info h3 {
+    font-size: 1.953vw;
+    margin-bottom: 3.906vw;
+  }
+
+  .purchase-date {
+    font-size: 1.693vw;
+    margin-bottom: 3.906vw;
+  } 
+
+  .price {
+    font-size: 1.953vw;
+  }
+
+  .action-icon {
+    width: 6.901vw;
+    height: 2.344vw;
+    padding: 1.302vw 9.115vw;
+  }
+
+  .action-icon img {
+    width: 2.604vw;
+    height: 2.344vw;
+  }
+
+  .view-more-btn {
+    width: 21.094vw;
+    height: 6.641vw;
+    border-radius: 0.625em;
+    font-size: 1.693vw;
+  }
+/* end body */
+  
+
+  /* footer */
+  .footer{
+    height: 46.094vw;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .footer-brand {
+    gap: 3.255vw;
+    width: 20.052vw;
+    height: 13.281vw;
+  }
+  
+  .footer-brand .logo {
+    font-size: 4.167vw;
+    width: 20.052vw;
+    height: 6.901vw;
+  }
+
+  .social-icons img {
+    width: 3.125vw;
+    height: 3.125vw;
+  }
+
+  .footer-column-1{
+    width: 19.141vw;
+    height: 22.526vw;
+  }
+
+  .footer-column-2{
+    width: 25.651vw;
+  }
+
+  .footer-column-3{
+    width: 171px;
+  }
+
+  .footer-column-1 h3, .footer-column-2 h3, .footer-column-3 h3{
+    font-size: 1.953vw;
+    margin-bottom: 1.563vw;
+    width: 19.141vw;
+    height: 4.818vw;
+  }
+
+  .footer-column-1 a, .footer-column-2 a, .footer-column-3 a{
+    font-size: 1.953vw;
+  }
+
+  .footer-column-1 li, .footer-column-2 li, .footer-column-3 li {
+    margin-bottom: 2.708vw;
+  }
+
+  .footer-bottom {
+    padding: 2.604vw 0px 6.12vw 0px;
+    font-size: 1.953vw;
+  }
+
+
+  .footer-content {
+    gap: 2.561vw;
+    padding-bottom: 0;
+    padding: 7.682vw 2.604vw 4.427vw 2.604vw;
+  }
+  /* end footer */
+}
+  

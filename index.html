@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đổi trả sản phẩm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="TabletResponsiveStyles.css">
+  <link rel="stylesheet" href="MobileResponsiveStyles.css">
+  <link rel="stylesheet" href="DesktopResponsiveStyles.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+    <header>
+      <div class="container-head">
+        <div class="title-head">
+          <img src="img/icon/material-symbols_menu.svg" alt="" srcset="">
+          <h1>Tikppe</h1>
+          <a href="#" class="menu-1">Trang chủ</a>
+          <a href="#" class="menu-2">Sản phẩm</a>
+          <a href="#" class="menu-3">Đơn hàng</a>
+          <a href="#" class="menu-4 active">Đổi trả</a>
+          <a href="#" class="menu-5">Hỗ trợ</a>
+        </div>
+        <div class="user-info">
+          <img src="img/avatar/Generic avatar.svg" alt="avatar" srcset="">
+          <span>Nguyễn Văn A</span>
+        </div>
+      </div>
+    </header>
+    <div class="container-body">
+      
+      <div class="title-body">
+        <div class="content-title-body">
+          <p class="title">Hệ thống đổi trả sản phẩm</p>
+          <p class="content">Chúng tôi cam kết mang đến quy trình đổi trả dễ dàng và thuận tiện cho khách hàng</p>
+        </div>
+      </div>
+  
+      <div class="content-body">
+  
+        <div class="title">
+          <p class="content-1">Quy trình đổi trả sản phẩm</p>
+          <p class="content-2">Bạn có thể dễ dàng đổi hoặc trả sản phẩm, hãy làm theo các bước bên dưới</p>
+        </div>
+  
+        <div class="steps-and-info">
+  
+          <div class="steps">
+            <!-- Step 1 -->
+            
+           <div class="step-1">
+              <div class="step-header">
+                <div class="step-number active">1</div>
+                <h3 class="step-title active">Chọn đơn hàng cần đổi trả</h3>
+              </div>
+            
+              <div class="step-content">
+                <button class="select-order" type="button">
+                  <img src="img/icon/tabler_box.svg" alt="Box icon" />
+                  <span>Chọn đơn hàng</span>
+                </button>
+              </div>
+            </div>
+          
+  
+            <!-- Step 2 -->
+            <div class="step-2">
+              <div class="step-header">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Chọn lý do đổi/trả</h3>
+              </div>
+              <div class="step-content">
+                <button class="select-reason" type="button">
+                  <div class="icon-and-content">
+                    <img src="img/icon/mage_box-3d-question-mark.svg" alt="Reason icon" />
+                    <span>Chọn lý do</span>
+                  </div>
+                  <img src="img/icon/mingcute_down-line.svg" alt="down-line">
+                </button>
+              </div>
+            </div>
+  
+            <!-- Step 3 -->
+            <div class="step-3">
+              <div class="step-header">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Chọn phương án giải quyết</h3>
+              </div>
+              <div class="step-content">
+                <div class="radio-group">
+                  <label class="radio-option">
+                    <img src="img/icon/radioButtonChecked.svg" alt="" srcset="" class="radio-checked">
+                    <span>Đổi hàng</span>
+                  </label>
+                  <label class="radio-option" id="unchecked">
+                    <img src="img/icon/radioButtonUnChecked.svg" alt="" srcset="" class="radio-unchecked">
+                    <span>Trả hàng, hoàn tiền</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Step 4 -->
+            <div class="step-4">
+              <div class="step-header">
+                <div class="step-number">4</div>
+                <h3 class="step-title">Chọn địa chỉ nhận hàng</h3>
+              </div>
+              <div class="step-content">
+                <div class="radio-group">
+                  <label class="radio-option">
+                    <img src="img/icon/radioButtonChecked.svg" alt="" srcset="" class="radio-checked">
+                    <span>ABC</span>
+                  </label>
+                  <label class="radio-option" id="unchecked">
+                    <img src="img/icon/radioButtonUnChecked.svg" alt="" srcset="" class="radio-unchecked">
+                    <span>DEF</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Step 5 -->
+            <div class="step-5">
+              <div class="step-header">
+                <div class="step-number">5</div>
+                <h3 class="step-title">Hoàn tất, gửi yêu cầu đổi/trả</h3>
+              </div>
+              <div class="step-content">
+                <button class="submit-btn">Gửi yêu cầu</button>
+              </div>
+            </div>
+  
+          </div>
+        
+        <!-- order status -->
+        <div class="order-status-2">
+          <h2>Theo dõi tình trạng đổi/trả</h2>
+              <div class="status-steps">
+                <div class="status-step active">
+                  <div class="status-icon">
+                    <img src="img/icon/BoxVector.svg" alt="Request icon" />
+                  </div>
+                  <p>Yêu cầu đổi/trả</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/uim_process.svg" alt="Process icon" />
+                  </div>
+                   <p>Xác nhận & Đóng gói</p>
+                 </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/hugeicons_shipping-truck-03.svg" alt="Shipping icon" />
+                  </div>
+                  <p>Vận chuyển sản phẩm</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/clock.svg" alt="Processing icon" />
+                  </div>
+                  <p>Xử lý đổi trả</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/mdi_success-02.svg" alt="Complete icon" />
+                  </div>
+                  <p>Hoàn thành</p>
+                </div>
+              </div>
+        </div>
+        <!-- end order status --> 
+  
+          <div class="info">
+            <h2>Quyền lợi & Điều kiện đổi trả</h2>
+            <!-- Benefits Card -->
+            <div class="card benefits">
+              <h3>Quyền lợi</h3>
+              <div class="benefit-item">
+                <img src="img/icon/hugeicons_truck-return.svg" alt="Benefit icon" />
+                <p>Đổi trả trong vòng 14 ngày kể từ ngày xác nhận yêu cầu đổi/trả hàng.</p>
+              </div>
+              <div class="benefit-item">
+                <img src="img/icon/bi_currency-dollar.svg" alt="Benefit icon" />
+                <p>Hoàn tiền 100% nếu là lỗi của cửa hàng và người mua có yêu cầu trả hàng hoàn tiền.</p>
+              </div>
+              <div class="benefit-item">
+                <img src="img/icon/hugeicons_shipping-truck-02.svg" alt="Benefit icon" id="responsiveIcon"/>
+                <p>Hỗ trợ phí vận chuyển 1 chiều cho đơn hàng.</p>
+              </div>
+              <div class="benefit-item" style="margin-bottom: 0;">
+                <img src="img/icon/fluent_box-search-20-regular.svg" alt="Benefit icon" />
+                <p>Theo dõi tình trạng đổi trả đơn hàng minh bạch, rõ ràng.</p>
+              </div>
+            </div>
+  
+            <!-- Conditions Card -->
+            <div class="card conditions" id="conditions">
+              <h3>Điều kiện đổi trả</h3>
+              <div class="condition-item">
+                <img src="img/icon/mdi_success.svg" alt="Check icon" />
+                <p>Sản phẩm còn nguyên vẹn, chưa sử dụng, không có dấu hiệu đã qua sử dụng hoặc bị hư hỏng.</p>
+              </div>
+              <div class="condition-item">
+                <img src="img/icon/mdi_success.svg" alt="Check icon" />
+                <p>Sản phẩm phải còn đầy đủ bao bì, nhãn mác và phụ kiện đi kèm (nếu có).</p>
+              </div>
+              <div class="condition-item">
+                <img src="img/icon/mdi_success.svg" alt="Check icon" />
+                <p>Đối với sản phẩm có khuyết điểm hoặc lỗi từ nhà sản xuất, bạn có thể yêu cầu đổi trả trong vòng 7 ngày kể từ ngày nhận hàng.</p>
+              </div>
+              <div class="condition-item" style="margin-bottom: 0;">
+                <img src="img/icon/mdi_success.svg" alt="Check icon" />
+                <p>Đối với sản phẩm không lỗi, khách hàng có thể đổi sản phẩm trong vòng 7 ngày kể từ ngày nhận hàng, nếu sản phẩm còn nguyên vẹn, chưa sử dụng.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        <!-- order status -->
+        <div class="order-status">
+          <h2>Theo dõi tình trạng đổi/trả</h2>
+              <div class="status-steps">
+                <div class="status-step active">
+                  <div class="status-icon">
+                    <img src="img/icon/BoxVector.svg" alt="Request icon" />
+                  </div>
+                  <p>Yêu cầu đổi/trả</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/uim_process.svg" alt="Process icon" />
+                  </div>
+                   <p>Xác nhận & Đóng gói</p>
+                 </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/hugeicons_shipping-truck-03.svg" alt="Shipping icon" />
+                  </div>
+                  <p>Vận chuyển sản phẩm</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/clock.svg" alt="Processing icon" />
+                  </div>
+                  <p>Xử lý đổi trả</p>
+                </div>
+                <div class="status-step">
+                  <div class="status-icon">
+                    <img src="img/icon/mdi_success-02.svg" alt="Complete icon" />
+                  </div>
+                  <p>Hoàn thành</p>
+                </div>
+              </div>
+        </div>
+        <!-- end order status --> 
+  
+        <!-- recently purchased products -->
+        <div class="recent-products">
+          <h2>Sản phẩm đã mua gần đây</h2>
+          <div class="product-list">
+            <div class="product-card">
+              <div class="img-and-content">
+                <img src="img/aopolo.jpg" alt="Áo Polo nam" class="product-image" />
+                <div class="product-info">
+                  <h3>Áo Polo nam ZAKADO thoáng mát</h3>
+                  <p class="purchase-date">Ngày mua: 15/03/2023</p>
+                  <p class="price">445.000đ</p>
+                </div>
+              </div>
+              <div class="action-icon">
+                <img src="img/icon/Arrow.svg" alt="Action icon" />
+              </div>
+            </div>
+  
+            <div class="product-card">
+              <div class="img-and-content">
+                <img src="img/aopolo.jpg" alt="Áo Polo nam" class="product-image" />
+                <div class="product-info">
+                  <h3>Áo Polo nam ZAKADO thoáng mát</h3>
+                  <p class="purchase-date">Ngày mua: 15/03/2023</p>
+                  <p class="price">445.000đ</p>
+                </div>
+              </div>
+              <div class="action-icon">
+                <img src="img/icon/Arrow.svg" alt="Action icon" />
+              </div>
+            </div>
+  
+            <div class="product-card">
+              <div class="img-and-content">
+                <img src="img/aopolo.jpg" alt="Áo Polo nam" class="product-image" />
+                <div class="product-info">
+                  <h3>Áo Polo nam ZAKADO thoáng mát</h3>
+                  <p class="purchase-date">Ngày mua: 15/03/2023</p>
+                  <p class="price">445.000đ</p>
+                </div>
+              </div>
+              <div class="action-icon">
+                <img src="img/icon/Arrow.svg" alt="Action icon" />
+              </div>
+            </div>
+            
+          </div>
+          <button class="view-more-btn">Xem thêm đơn hàng</button>
+        </div>
+        <!-- end recently purchased products -->
+  
+      </div>
+  
+  
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">Tikppe</div>
+            <div class="social-icons">
+              <a href="#"><img src="img/icon/X Logo.svg" alt="X logo" /></a>
+              <a href="#"><img src="img/icon/Logo Instagram.svg" alt="Instagram" /></a>
+              <a href="#"><img src="img/icon/Logo YouTube.svg" alt="YouTube" /></a>
+              <a href="#"><img src="img/icon/LinkedIn.svg" alt="LinkedIn" /></a>
+            </div>
+          </div>
+    
+          
+            <div class="footer-column-1">
+              <h3>Về chúng tôi</h3>
+              <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Hệ thống cửa hàng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-column-2">
+              <h3>Hỗ trợ khách hàng</h3>
+              <ul>
+                <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                <li><a href="#">Chính sách đổi trả</a></li>
+                <li><a href="#">Phương thức thanh toán</a></li>
+                <li><a href="#">Phương thức vận chuyển</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-column-3">
+              <h3>Chính sách</h3>
+              <ul>
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="#">Quy chế hoạt động</a></li>
+                <li><a href="#">Chính sách vận chuyển</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+              </ul>
+            </div>
+          
+        </div>
+    
+        <div class="footer-bottom">
+          <p>© 2025 - Hệ thống đổi trả sản phẩm.</p>
+        </div>
+      </div>
+    </footer>
+ 
+</body>
+
+
+<script>
+  function updateIcon() {
+      const icon = document.getElementById("responsiveIcon");
+      const width = window.innerWidth;
+
+      if (width <= 480) {
+        icon.src = "img/icon/hugeicons_shipping-truck-02-bold.svg";
+      } else if (width <= 768) {
+        icon.src = "img/icon/hugeicons_shipping-truck-02-bold.svg";
+      } else {
+        icon.src = "img/icon/hugeicons_shipping-truck-02.svg";
+      }
+    }
+
+    window.addEventListener("resize", updateIcon);
+    window.addEventListener("DOMContentLoaded", updateIcon);
+</script>
+
+</html>

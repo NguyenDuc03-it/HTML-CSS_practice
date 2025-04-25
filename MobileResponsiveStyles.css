@@ -1,0 +1,483 @@
+@media screen and (max-width: 30em){
+    body{
+        width: 100%;
+    }
+
+    header{
+        height: 4.167vw;
+        padding: 7.5vw 4.167vw;
+        margin-bottom: 0.625vw;
+    }
+
+    .container-head {
+        height: 5vw;
+    }
+
+    .title-head {
+        width: 76.875vw;
+        height: 5vw;
+        padding: 0px 0px 0px 2.083vw;
+    }
+
+    .title-head h1 {
+        font-size: 5vw;
+        width: 13.75vw;
+    }
+
+    .title-head img{
+        display: block;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .title-head a{
+        display: none;
+    }
+
+    .user-info {
+        width: 31.25vw;
+        height: 5vw;
+        flex-shrink: 0;
+    }
+
+    .user-info img {
+        width: 5.208vw;
+        height: 5vw;
+    }
+
+    .user-info span {
+        margin-top: 0.833vw;
+        margin-bottom: 0.833vw;
+        font-size: 2.708vw;
+    }
+
+
+    .container-body{
+        padding: 0px 0px;
+    }
+
+    .title-body{
+        width: 100%;
+        height: 18.542vw;
+    }
+
+    .title-body .content-title-body{
+        height: 18.542vw;
+    }
+
+    .title-body .title {
+        font-size: 3.125vw;
+        margin: 2.5vw 0px 2.292vw 4.167vw;
+        height: 3.75vw;
+        padding: 0;
+    }
+
+    .title-body .content {
+        font-size: 2.5vw;
+        margin: 0px 0px 2.5vw 4.167vw;
+        width: 91.667vw;
+        height: 7.5vw;
+        padding: 0;
+    }
+
+    .content-body {
+        padding-bottom: 3.125vw;
+    }
+
+    .content-body > div {
+        margin-top: 6.458vw;
+    }
+
+    .content-body .title {
+        width: 91.667vw;
+        height: 10vw;
+        padding: 0px 4.167vw;
+    }
+
+    .content-body .title .content-1 {
+        font-size: 3.125vw;
+        margin-bottom: 3.125vw;
+    }
+
+    .content-body .title .content-2 {
+        font-size: 2.5vw;
+    }
+
+    .steps-and-info {
+        display: flex;
+       flex-wrap: wrap;
+       padding: 0;
+    }
+
+    .steps {
+        width: 100%;
+        padding: 0px 4.167vw;
+        height: 104.375vw;
+    }
+
+    .steps .step-1, .step-2, .step-3, .step-4, .step-5 {
+        margin-bottom: 5.208vw;
+        width: 56.875vw;
+    }
+
+    .steps .step-1{
+        height: 15.208vw;
+    }
+    
+    .step-header {
+        width: 100%;
+        height: 5.208vw;
+        gap: 2.083vw;
+        margin-bottom: 2.083vw;
+    }
+
+    .step-number {
+        width: 5.208vw;
+        height: 5.208vw;
+        font-size: 2.708vw;
+    }
+
+    .step-title {
+        font-size: 3.125vw;
+        width: 40vw;
+    }
+
+    .step-3{
+        height: 18.542vw;
+    }
+
+    .step-5{
+        height: 15.625vw;
+    }
+
+    .step-2 .step-title{
+        width: 27.292vw;
+    }
+
+    .step-3 .step-title{
+        width: 41.25vw;
+    }
+
+    .step-4 .step-title{
+        width: 35.833vw;
+    }
+
+    .step-5 .step-title{
+        width: 43.333vw;
+    }
+
+    .step-3 .step-content{
+        height: 11.25vw;
+    }
+
+    .step-content button {
+        width: 28.958vw;
+        height: 8.333vw;
+        gap: 3.75vw;
+        padding: 0 1.042vw;
+    }
+
+    .step-content img {
+        width: 2.917vw;
+        height: 2.917vw;
+    }
+
+    .step-content .select-order span, .step-content .select-reason .icon-and-content span {
+        font-size: 2.5vw;
+    }
+
+    .step-content .select-order span {
+        width: 18.125vw;
+    }
+
+    .radio-group {
+        width: 43.333vw;
+        gap: 3.021vw;
+        height: 11.25vw;
+    }
+
+    .radio-group label {
+        padding: 0;
+        gap: 2.917vw;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .radio-option span {
+        font-size: 2.5vw;
+    }
+
+    .step-content .radio-checked {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .step-content .radio-unchecked {
+        width: 3.958vw;
+        height: 3.958vw;
+        padding: 0px 2.5px;
+    }
+
+    
+
+    .step-1 .step-content, .step-2 .step-content{
+        width: 41.667vw;
+    }
+
+    .step-5 .step-content {
+        width: 50.625vw;
+        height: 8.333vw;
+    }
+
+    .step-content .submit-btn {
+        width: 24.375vw;
+        height: 8.333vw;
+        gap: 1.667vw;
+        margin: 0px 7.917vw;
+        font-size: 2.5vw; 
+    }
+
+    .info h2{
+        display: block;
+        font-size: 3.125vw;
+    }
+
+    .info .card{
+        width: 65.095vw;
+        padding: 3.958vw 2.083vw;
+        border-radius: 2.083vw;
+        height: 36.350vw;
+    }
+
+    #conditions{
+        width: 64.500vw;
+        height: 43.45vw;
+    }
+
+    .steps-and-info .info {
+        flex: 1;
+        gap: 3.354vw;
+        margin-top: 6.458vw;
+        width: 100%;
+        max-width: 30em;
+        align-items: center;
+        height: 114.792vw;
+    }
+
+    .benefit-item img, .condition-item img {
+        width: 3.958vw;
+        height: 3.958vw;
+    }
+
+    .benefit-item, .condition-item {
+        gap: 1.875vw;
+        margin-bottom: 3.75vw;
+    }
+
+    .card h3 {
+        font-size: 3.125vw;
+        margin-bottom: 3.75vw;
+    }
+
+    .benefit-item p, .condition-item p {
+        font-size: 2.083vw;
+    }
+
+    .order-status{
+        display: none;
+    }
+
+    .order-status-2{
+        display: block;
+        width: 100%;
+        height: 34.792vw;
+        margin-top: 6.458vw;
+    }
+
+    .order-status-2 h2{
+        font-size: 3.125vw;
+        margin-bottom: 5.833vw;
+        padding: 0px 4.167vw;
+    }
+
+    .status-steps{
+        height: 25.208vw;
+    }
+
+    .status-step p {
+    font-size: 2.083vw;
+    }
+
+    .status-step {
+        gap: 1.25vw;
+        width: 21.458vw;
+        height: 25.208vw;
+    }
+
+    .status-icon {
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .status-icon img {
+        width: 5.469vw;
+        height: 5.469vw;
+    }
+
+    .recent-products {
+        max-width: 100%;
+        margin: 0;
+        padding: 0px 4.167vw;
+    }
+
+    .recent-products h2 {
+        font-size: 3.125vw;
+        margin-bottom: 7.5vw;
+    }
+
+    .product-card {
+        padding: 0;
+        border-radius: 2.083vw;
+        margin-bottom: 7.5vw;
+        gap: 2.083vw;
+        width: 91.500vw;
+        height: 26.80vw;
+    }
+
+    .img-and-content{
+        width: 65vw;
+        height: 26.875vw;
+    }
+
+    .product-image {
+        width: 22.917vw;
+        height: 26.875vw;
+        object-fit: contain;
+        margin-right: 0.521vw;
+        margin-left: 0.260vw;
+    }
+
+    .product-info h3 {
+        font-size: 2.5vw;
+        margin-bottom: 6.25vw;
+    }
+
+    .purchase-date {
+        font-size: 2.083vw;
+        margin-bottom: 6.25vw;
+    }
+
+    .price {
+        font-size: 2.292vw;
+    }
+
+    .product-info {
+        width: 40.208vw;
+    }
+
+    .action-icon img {
+        width: 3.125vw;
+        height: 2.708vw;
+    }
+
+    .action-icon {
+        width: 24.583vw;
+        padding: 2.083vw 14.583vw 2.083vw 2.083vw;
+    }
+
+    .view-more-btn {
+        width: 23.75vw;
+        height: 8.75vw;
+        font-size: 2.083vw;
+        border-radius: 2.083vw;
+    }
+
+    .footer {
+        /* height: 77.083vw; */
+        padding: 2.083vw 0px;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .footer-content {
+        gap: 0;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        margin-left: 4.167vw;
+        margin-right: 4.167vw;
+        border: none
+    }
+
+    .footer-brand .logo {
+        font-size: 5vw;
+        width: 16.667vw;
+        height: 9.167vw;
+    }
+
+    .social-icons img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    
+
+    .footer-column-1 h3, .footer-column-2 h3, .footer-column-3 h3 {
+        font-size: 2.5vw;
+        margin-bottom: 1.875vw;
+        width: 25.208vw;
+        height: 6.875vw;
+    }
+
+    .footer-column-1 a, .footer-column-2 a, .footer-column-3 a {
+        font-size: 2.083vw;
+    }
+
+    .footer-column-1 li, .footer-column-2 li, .footer-column-3 li {
+        margin-bottom: 1.875vw;
+    }
+
+    .footer-column-1{
+        order: 1;
+    }
+
+    .footer-brand {
+        gap: 2.5vw;
+        width: 34.167vw;
+        height: 16.667vw;
+    }
+
+    .social-icons {
+        gap: 3.333vw;
+        height: 5vw;
+    }
+
+    .footer-column-2{
+        width: 25.208vw;
+        height: 29.375vw;
+        margin-bottom: 6.25vw;
+    }
+
+    .footer-column-3{
+        width: 25.208vw;
+        height: 32.708vw;
+        margin-right: 41.25vw;
+    }
+
+    .footer-column-1{
+        width: 25.208vw;
+        height: 32.708vw;
+    }
+
+    .footer-column-1, .footer-column-2, .footer-column-3{
+        height: 100%;
+    }
+
+    .footer-brand{
+        margin-right: 32.292vw;
+    }
+
+    .footer-bottom {
+        font-size: 2.083vw;
+        border-top: 1px solid #000;
+    }
+}
